@@ -45,3 +45,18 @@ let compressed = person.map(function (item) {
 });
 
 food.innerHTML = compressed.join("\n");
+//////////////
+
+const circle = document.querySelector("#nothing");
+
+circle.addEventListener("mouseenter", () => {
+  if (!circle.classList.contains("hover")) {
+    circle.classList.add("hover");
+  }
+});
+
+circle.addEventListener("mouseleave", () => {
+  if (!circle.classList.contains("hover")) {
+    circle.classList.add("hover");
+  }
+});

@@ -55,9 +55,11 @@
  }
 
  .hover {
-  font-size: 1.2 rem;
+  transform: scale(2);
 
  }
+
+ 
   body {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
